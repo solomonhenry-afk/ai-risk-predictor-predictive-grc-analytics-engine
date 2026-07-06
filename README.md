@@ -40,12 +40,12 @@ The project demonstrates a GRC engineering model in which evidence, risk forecas
 
 > **Transforming validated enterprise telemetry into explainable cyber-risk forecasts, governance intelligence, and executive decision support.**
 
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![Flask](https://img.shields.io/badge/Flask-Command%20Center-black?logo=flask)
-![Plotly](https://img.shields.io/badge/Plotly-Executive%20Analytics-3f4f75?logo=plotly)
-![Machine Learning](https://img.shields.io/badge/ML-Risk%20Forecasting-orange)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-Governed%20Automation-2088FF?logo=githubactions)
-![GRC Engineering](https://img.shields.io/badge/GRC-Telemetry--Driven-success)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Command_Center-000000?logo=flask&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Executive_Analytics-3F4F75?logo=plotly&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-Risk_Forecasting-FF6F00)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Governed_Automation-2088FF?logo=githubactions&logoColor=white)
+![GRC Engineering](https://img.shields.io/badge/GRC_Engineering-Telemetry_Driven-2EA44F)
 
 ## Enterprise Security Evolution
 
@@ -217,74 +217,130 @@ The GitHub Actions workflow supports:
 * artifact retention for 90 days
 
 The workflow intentionally uses read-only repository access:
+---
 
-```yaml
-permissions:
-  contents: read
-```
+#  Tech Stack
 
-Generated governance outputs are retained as GitHub Actions artifacts rather than automatically committed to the repository.
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Command_Center-000000?logo=flask&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Executive_Analytics-3F4F75?logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Telemetry_Engineering-150458?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Risk_Forecasting-F7931E?logo=scikitlearn&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Governed_Automation-2088FF?logo=githubactions&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Executive_Dashboard-000000?logo=flask&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-Threat_Correlation-ED1C24)
+![GRC Engineering](https://img.shields.io/badge/GRC_Engineering-Telemetry_Driven-2EA44F)
+
+</div>
+
+| Layer | Technologies and Capabilities |
+|---|---|
+| Application layer | Python, Flask, Jinja templates, HTML, CSS |
+| Analytics layer | Pandas, scikit-learn, Joblib, risk forecasting, anomaly detection |
+| Visualization layer | Plotly, executive KPI cards, risk distributions, analyst queues |
+| Telemetry layer | Identity, endpoint, firewall, Suricata, vulnerability, control-validation, and remediation signals |
+| Threat intelligence layer | MITRE ATT&CK correlation, attack-trend prioritization, threat-governance context |
+| Governance layer | Data-quality validation, explainability, model validation, evidence manifests, human review gates |
+| Automation layer | GitHub Actions, scheduled refresh, manual dispatch, artifact retention, least-privilege workflow permissions |
+| Reporting layer | Executive operational metrics, downloadable governance reports, evidence packaging |
 
 ---
 
-## Evidence Package
+#  GitHub Analytics
 
-See:
+<div align="center">
 
-* [`docs/SCREENSHOT-INVENTORY.md`](docs/SCREENSHOT-INVENTORY.md)
-* [`docs/PHASE-H-EXECUTIVE-RISK-INTELLIGENCE-REPORTING-EVIDENCE-AND-PORTFOLIO-DELIVERY.md`](docs/PHASE-H-EXECUTIVE-RISK-INTELLIGENCE-REPORTING-EVIDENCE-AND-PORTFOLIO-DELIVERY.md)
-* [`reports/EXECUTIVE-SUMMARY-AI-RISK-PREDICTOR.md`](reports/EXECUTIVE-SUMMARY-AI-RISK-PREDICTOR.md)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=solomonhenry-afk&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
----
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=solomonhenry-afk&layout=compact&theme=tokyonight&hide_border=true)
 
-## Tech Stack
+![GitHub Streak](https://streak-stats.demolab.com?user=solomonhenry-afk&theme=tokyonight&hide_border=true)
 
-* Python
-* Flask
-* Plotly
-* Pandas
-* Scikit-learn
-* Joblib
-* GitHub Actions
-* GitHub Actions Artifacts
-* MITRE ATT&CK correlation
-* GRC control validation and evidence engineering
+</div>
 
 ---
 
-## Project Structure
+#  Repository Visitors
 
-```text
-.
-├── app/                    # Flask command center
-├── datasets/               # Validated model-ready telemetry features
-├── docs/                   # Architecture, governance, evidence, phase records
-├── models/                 # Baseline model artifacts
-├── output/                 # Forecasts, explainability, metrics, evidence manifest
-├── reports/                # Executive and governance reports
-├── scripts/                # Pipeline, model, validation, reporting automation
-├── screenshots/            # Curated portfolio evidence
-├── .github/workflows/      # CI/CD governance automation
-├── requirements.txt
-├── run.py
-└── README.md
-```
+<div align="center">
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=solomonhenry-afk.ai-risk-predictor-predictive-grc-analytics-engine)
+
+</div>
 
 ---
 
-## Author
+# 🤝 Connect With Me
 
-**Solomon Henry**
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-solomonhenry--afk-181717?logo=github&logoColor=white)](https://github.com/solomonhenry-afk)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bassey-solomon-henry/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?logo=gmail&logoColor=white)](solomon_henry111@outlook.com)
+
+</div>
+
+---
+
+##  Enterprise Security Evolution
+
+This project is part of the **Lighthouse Technology Enterprise Security Evolution** portfolio: a practical, evidence-driven cybersecurity engineering program that connects infrastructure security, detection engineering, attack-surface intelligence, GRC automation, remediation validation, resilience scoring, and executive risk communication.
+
+| Domain | Engineering Focus |
+|---|---|
+| Domain 1 | Enterprise infrastructure and security architecture |
+| Domain 2 | Defensive operations, detection engineering, and threat visibility |
+| Domain 3 | Offensive security validation, attack-path analysis, and remediation evidence |
+| Domain 4 | Enterprise GRC intelligence, risk analytics, cyber resilience, and governance automation |
+
+### Domain 4 Portfolio Tasks
+
+| Task | Project |
+|---|---|
+| Task 1 | Enterprise Risk Telemetry Engineering |
+| Task 2 | Automated GRC Control Validation Engine |
+| Task 3 | Attack-Surface & IAM Governance Intelligence |
+| Task 4 | Remediation Engineering & Resilience Scoring |
+| Task 5 | AI Risk Predictor — Predictive GRC Analytics Engine |
+| Task 6 | Live GRC Analytics Command Center & Insight Engine |
+
+---
+# Author
+Bassey Solomon Henry
+
 Cybersecurity | GRC Engineering | Security Automation | AI Governance | Risk Analytics
+##  Personal Philosophy
 
-> Security is not measured by preventing every attack. It is measured by understanding systems deeply enough to detect, investigate, and continuously improve against evolving threats.
+> **Security is not measured by preventing every attack. It is measured by understanding systems deeply enough to detect, investigate, and continuously improve against evolving threats.**
+>
+> **— Solomon Henry**
+
+The purpose of this project is not to replace security analysts or governance professionals with automation. It is to remove repetitive evidence-chasing, make risk signals easier to interpret, preserve traceability, and give human decision-makers a clearer basis for action.
 
 ---
 
-## Connect
+##  Responsible Use
 
-* GitHub: [https://github.com/solomonhenry-afk](https://github.com/solomonhenry-afk)
-* LinkedIn: Add your LinkedIn profile URL here
+This repository is designed for education, portfolio demonstration, and authorized lab environments only.
+
+- Telemetry is sanitized, simulated, or generated from authorized Lighthouse Technology lab infrastructure.
+- No production credentials, private keys, sensitive personal data, or unredacted operational records are included.
+- Model output is advisory and requires analyst validation.
+- The application does not autonomously change infrastructure, access controls, policies, or incident status.
+
+---
+
+<div align="center">
+
+### Built as part of the Lighthouse Technology Enterprise Security Evolution
+
+**Telemetry-driven governance. Explainable risk intelligence. Human-led security decisions.**
+
+[![Repository](https://img.shields.io/badge/View_on-GitHub-181717?logo=github&logoColor=white)](https://github.com/solomonhenry-afk/ai-risk-predictor-predictive-grc-analytics-engine)
+
+</div>
 
 ---
 
