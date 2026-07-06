@@ -38,14 +38,8 @@ The project demonstrates a GRC engineering model in which evidence, risk forecas
 
 # AI Risk Predictor — Predictive GRC Analytics Engine
 
-> **Transforming validated enterprise telemetry into explainable cyber-risk forecasts, governance intelligence, and executive decision support.**
+**Transforming validated enterprise telemetry into explainable cyber-risk forecasts, governance intelligence, and executive decision support.**
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-Command_Center-000000?logo=flask&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Executive_Analytics-3F4F75?logo=plotly&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-Risk_Forecasting-FF6F00)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Governed_Automation-2088FF?logo=githubactions&logoColor=white)
-![GRC Engineering](https://img.shields.io/badge/GRC_Engineering-Telemetry_Driven-2EA44F)
 
 ## Enterprise Security Evolution
 
