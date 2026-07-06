@@ -1,4 +1,4 @@
-# Executive Summary — AI Risk Predictor
+# Executive Summary — AI Risk Predictor (Predictive GRC Analytics Engine)
 
 Lighthouse Technology required a way to move from retrospective compliance reporting toward continuous, telemetry-driven governance intelligence.
 
