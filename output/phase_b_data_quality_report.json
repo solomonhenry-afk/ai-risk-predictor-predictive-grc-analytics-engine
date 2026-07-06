@@ -1,0 +1,13 @@
+{
+  "report_name": "Task 5 Phase B Data Quality Report",
+  "generated_at": "2026-07-06T07:34:17.886045+00:00",
+  "dataset": "/home/solomon_henry/Lighthouse-Technology/ENTERPRISE-SECURITY-EVOLUTION/DOMAIN-4-Enterprise-GRC-Intelligence-Risk-Analytics-Cyber-Resilience-Engineering/tasks/Task-5-AI-Risk-Prediction-Threat-Analytics-Engine/datasets/model_ready_risk_features.csv",
+  "record_count": 250,
+  "unique_asset_count": 250,
+  "high_risk_label_count": 72,
+  "high_risk_label_rate_percent": 28.8,
+  "quality_status": "PASS",
+  "issue_count": 0,
+  "issues": [],
+  "governance_statement": "The dataset is synthetic and contains no production credentials, private IP addresses, personal data, or real enterprise identifiers."
+}

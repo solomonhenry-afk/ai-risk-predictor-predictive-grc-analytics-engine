@@ -1,0 +1,4 @@
+asset_id,asset_type,business_unit,high_risk_label,predicted_high_risk_label,high_risk_probability,predicted_risk_tier,model_confidence,anomaly_flag,validation_outcome,analyst_action,generated_at
+LHT-Asset-064,domain_controller,finance_operations,1,0,0.3744,Medium,Low,No,False Negative,"Review missed risk signals, validate feature coverage, and consider threshold or feature-engineering improvement.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-166,domain_controller,finance_operations,1,0,0.407,Medium,Low,No,False Negative,"Review missed risk signals, validate feature coverage, and consider threshold or feature-engineering improvement.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-224,workstation,finance_operations,1,0,0.4096,Medium,Low,No,False Negative,"Review missed risk signals, validate feature coverage, and consider threshold or feature-engineering improvement.",2026-07-06T09:16:38.211550+00:00

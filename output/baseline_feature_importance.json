@@ -1,0 +1,92 @@
+{
+  "report_name": "Task 5 Phase C Baseline Feature Importance",
+  "generated_at": "2026-07-06T09:16:35.366557+00:00",
+  "model_type": "Logistic Regression",
+  "features": [
+    {
+      "feature": "anomaly_signal_count",
+      "coefficient": 2.40692,
+      "absolute_importance": 2.40692
+    },
+    {
+      "feature": "business_criticality",
+      "coefficient": 1.749852,
+      "absolute_importance": 1.749852
+    },
+    {
+      "feature": "suricata_high_alerts_7d",
+      "coefficient": 0.79659,
+      "absolute_importance": 0.79659
+    },
+    {
+      "feature": "residual_risk_score",
+      "coefficient": 0.733457,
+      "absolute_importance": 0.733457
+    },
+    {
+      "feature": "governance_risk_score",
+      "coefficient": 0.422913,
+      "absolute_importance": 0.422913
+    },
+    {
+      "feature": "attack_path_score",
+      "coefficient": 0.392953,
+      "absolute_importance": 0.392953
+    },
+    {
+      "feature": "identity_risk_score",
+      "coefficient": -0.338939,
+      "absolute_importance": 0.338939
+    },
+    {
+      "feature": "detection_gap_score",
+      "coefficient": 0.330138,
+      "absolute_importance": 0.330138
+    },
+    {
+      "feature": "control_effectiveness",
+      "coefficient": -0.329403,
+      "absolute_importance": 0.329403
+    },
+    {
+      "feature": "vulnerability_score",
+      "coefficient": -0.251467,
+      "absolute_importance": 0.251467
+    },
+    {
+      "feature": "failed_logons_24h",
+      "coefficient": 0.236016,
+      "absolute_importance": 0.236016
+    },
+    {
+      "feature": "network_risk_score",
+      "coefficient": -0.231153,
+      "absolute_importance": 0.231153
+    },
+    {
+      "feature": "suspicious_powershell_7d",
+      "coefficient": 0.224497,
+      "absolute_importance": 0.224497
+    },
+    {
+      "feature": "privileged_changes_7d",
+      "coefficient": 0.216438,
+      "absolute_importance": 0.216438
+    },
+    {
+      "feature": "evidence_integrity_score",
+      "coefficient": 0.198374,
+      "absolute_importance": 0.198374
+    },
+    {
+      "feature": "risk_trend_30d",
+      "coefficient": -0.168535,
+      "absolute_importance": 0.168535
+    },
+    {
+      "feature": "firewall_policy_exposure",
+      "coefficient": 0.112859,
+      "absolute_importance": 0.112859
+    }
+  ]
+}

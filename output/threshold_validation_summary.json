@@ -1,0 +1,12 @@
+{
+  "report_name": "Task 5 Phase E Threshold Validation Summary",
+  "generated_at": "2026-07-06T09:16:38.297921+00:00",
+  "decision_threshold": 0.5,
+  "decision_rule": "Assets at or above the threshold are classified as predicted high risk and routed for analyst review.",
+  "record_count": 250,
+  "true_positive_count": 69,
+  "true_negative_count": 170,
+  "false_positive_count": 8,
+  "false_negative_count": 3,
+  "governance_note": "Threshold changes require documented review by the model owner and GRC lead, including assessment of false-positive and false-negative impact."
+}

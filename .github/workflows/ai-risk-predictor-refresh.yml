@@ -1,0 +1,63 @@
+name: AI Risk Predictor Governance Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-train-report:
+    name: Validate, retrain, and publish governance artifacts
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Validate model-ready telemetry dataset
+        run: |
+          python scripts/validate_data_quality.py
+
+      - name: Train baseline risk forecasting model
+        run: |
+          python scripts/train_baseline_risk_models.py
+
+      - name: Generate threat analytics and attack-trend correlations
+        run: |
+          python scripts/correlate_threat_signals.py
+          python scripts/generate_phase_d_threat_report.py
+
+      - name: Validate predictions and generate explainability outputs
+        run: |
+          python scripts/validate_predictions_and_explainability.py
+          python scripts/generate_phase_e_model_governance_report.py
+
+      - name: Generate governance evidence and executive reports
+        run: |
+          python scripts/generate_evidence_manifest.py
+          python scripts/generate_operational_metrics.py
+          python scripts/generate_operational_report.py
+
+      - name: Upload governance artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-risk-predictor-governance-artifacts
+          path: |
+            output/
+            reports/
+            models/
+          if-no-files-found: error
+          retention-days: 90

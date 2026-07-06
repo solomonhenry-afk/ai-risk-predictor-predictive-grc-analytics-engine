@@ -1,0 +1,15 @@
+{
+  "project": "AI Risk Predictor \u2014 Predictive GRC Analytics Engine",
+  "generated_at": "2026-07-06T09:17:12.896956+00:00",
+  "telemetry_profiles_processed": 250,
+  "critical_predicted_risk_assets": 62,
+  "high_predicted_risk_assets": 15,
+  "anomalous_telemetry_profiles": 30,
+  "analyst_review_required": 80,
+  "critical_threat_priority_findings": 81,
+  "high_threat_priority_findings": 35,
+  "true_positive_count": 69,
+  "false_positive_count": 8,
+  "false_negative_count": 3,
+  "governance_note": "Metrics support executive prioritization and require human validation before escalation or remediation decisions."
+}

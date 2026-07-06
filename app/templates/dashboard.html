@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Risk Predictor | Lighthouse Technology</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+</head>
+<body>
+    <header class="topbar">
+        <div>
+            <p class="eyebrow">Lighthouse Technology</p>
+            <h1>AI Risk Predictor</h1>
+            <p class="subtitle">Predictive GRC Analytics Engine</p>
+        </div>
+        <div class="status">
+            <span class="status-dot"></span>
+            Telemetry-driven governance intelligence
+        </div>
+    </header>
+
+    {% if not dashboard_ready %}
+        <main class="empty-state">
+            <h2>Dashboard Awaiting Pipeline Output</h2>
+            <p>{{ message }}</p>
+        </main>
+    {% else %}
+        <main class="dashboard">
+            <section class="hero">
+                <div>
+                    <p class="eyebrow">Executive cyber resilience view</p>
+                    <h2>Forecast enterprise risk before it becomes an audit, control, or security failure.</h2>
+                    <p>
+                        This command center correlates validated Lighthouse telemetry,
+                        predictive risk scoring, anomaly detection, ATT&CK context,
+                        control effectiveness, and remediation intelligence.
+                    </p>
+                </div>
+            </section>
+
+            <section class="kpi-grid">
+                <article class="kpi-card">
+                    <p>Critical predicted risk</p>
+                    <h3>{{ critical_count }}</h3>
+                    <span>Assets requiring immediate validation</span>
+                </article>
+
+                <article class="kpi-card">
+                    <p>High predicted risk</p>
+                    <h3>{{ high_count }}</h3>
+                    <span>Priority analyst review candidates</span>
+                </article>
+
+                <article class="kpi-card">
+                    <p>Anomalous telemetry profiles</p>
+                    <h3>{{ anomaly_count }}</h3>
+                    <span>Unusual multi-signal behavior</span>
+                </article>
+
+                <article class="kpi-card">
+                    <p>Analyst review queue</p>
+                    <h3>{{ review_count }}</h3>
+                    <span>Forecasts requiring evidence validation</span>
+                </article>
+            </section>
+
+            <section class="chart-grid">
+                <article class="panel">
+                    {{ risk_chart_html | safe }}
+                </article>
+
+                {% if threat_chart_html %}
+                <article class="panel">
+                    {{ threat_chart_html | safe }}
+                </article>
+                {% endif %}
+            </section>
+
+            <section class="panel">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Prioritized action queue</p>
+                        <h2>Highest-Risk Assets</h2>
+                    </div>
+                    <p>Predictions are advisory and require analyst validation.</p>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Asset</th>
+                                <th>Type</th>
+                                <th>Business Unit</th>
+                                <th>Risk Probability</th>
+                                <th>Risk Tier</th>
+                                <th>Anomaly</th>
+                                <th>Review Required</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for asset in high_risk_assets %}
+                            <tr>
+                                <td>{{ asset.asset_id }}</td>
+                                <td>{{ asset.asset_type }}</td>
+                                <td>{{ asset.business_unit }}</td>
+                                <td>{{ "%.2f"|format(asset.high_risk_probability * 100) }}%</td>
+                                <td>{{ asset.predicted_risk_tier }}</td>
+                                <td>{{ asset.anomaly_flag }}</td>
+                                <td>{{ asset.analyst_review_required }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="governance-note">
+                <h2>Governance Boundary</h2>
+                <p>
+                    The AI Risk Predictor supports risk prioritization and executive
+                    decision-making. It does not declare incidents, attribute activity,
+                    modify security controls, or initiate remediation without human review.
+                </p>
+            </section>
+        </main>
+    {% endif %}
+</body>
+</html>

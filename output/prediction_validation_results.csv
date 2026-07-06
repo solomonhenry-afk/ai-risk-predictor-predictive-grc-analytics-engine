@@ -1,0 +1,251 @@
+asset_id,asset_type,business_unit,high_risk_label,predicted_high_risk_label,high_risk_probability,predicted_risk_tier,model_confidence,anomaly_flag,validation_outcome,analyst_action,generated_at
+LHT-Asset-001,domain_controller,finance_operations,0,0,0.037,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-002,application_server,finance_operations,0,0,0.1324,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-003,siem_server,network_services,0,0,0.0168,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-004,linux_server,business_applications,0,0,0.0019,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-005,workstation,business_applications,0,0,0.0028,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-006,windows_server,identity_services,0,0,0.3698,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-007,siem_server,finance_operations,1,1,0.9353,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-008,application_server,security_operations,0,0,0.0087,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-009,linux_server,identity_services,1,1,0.9849,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-010,workstation,business_applications,1,1,0.9974,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-011,application_server,business_applications,0,0,0.007,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-012,firewall,security_operations,0,0,0.2357,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-013,application_server,identity_services,0,0,0.403,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-014,domain_controller,finance_operations,0,0,0.0018,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-015,workstation,identity_services,0,0,0.1352,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-016,firewall,identity_services,0,0,0.0098,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-017,windows_server,identity_services,0,0,0.0458,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-018,workstation,finance_operations,0,0,0.0006,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-019,workstation,business_applications,0,0,0.0012,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-020,application_server,business_applications,0,0,0.0139,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-021,application_server,finance_operations,1,1,0.9918,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-022,windows_server,identity_services,0,0,0.3968,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-023,linux_server,finance_operations,0,0,0.0878,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-024,firewall,network_services,1,1,1.0,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-025,linux_server,identity_services,0,0,0.0112,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-026,windows_server,network_services,0,0,0.0203,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-027,workstation,business_applications,1,1,0.8408,Critical,Medium,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-028,workstation,business_applications,0,1,0.7487,High,Medium,No,False Positive,"Validate contributing telemetry, document benign explanation if confirmed, and retain as model-improvement evidence.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-029,application_server,finance_operations,0,0,0.0201,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-030,siem_server,finance_operations,0,0,0.0017,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-031,application_server,business_applications,0,1,0.7186,High,Medium,No,False Positive,"Validate contributing telemetry, document benign explanation if confirmed, and retain as model-improvement evidence.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-032,siem_server,identity_services,0,0,0.0148,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-033,firewall,network_services,1,1,0.9944,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-034,firewall,business_applications,0,0,0.0079,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-035,windows_server,identity_services,0,1,0.7022,High,Medium,No,False Positive,"Validate contributing telemetry, document benign explanation if confirmed, and retain as model-improvement evidence.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-036,application_server,finance_operations,0,0,0.0047,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-037,domain_controller,network_services,0,0,0.0002,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-038,siem_server,network_services,1,1,0.9912,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-039,application_server,identity_services,0,0,0.1247,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-040,linux_server,network_services,0,0,0.0105,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-041,linux_server,finance_operations,1,1,0.6524,High,Low,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-042,siem_server,network_services,0,0,0.1622,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-043,windows_server,network_services,1,1,1.0,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-044,domain_controller,business_applications,1,1,0.95,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-045,siem_server,finance_operations,0,0,0.1354,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-046,domain_controller,network_services,0,0,0.0144,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-047,workstation,business_applications,0,0,0.0046,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-048,application_server,security_operations,1,1,0.9998,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-049,application_server,network_services,1,1,0.9999,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-050,linux_server,business_applications,1,1,0.7993,Critical,Medium,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-051,domain_controller,network_services,1,1,0.8242,Critical,Medium,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-052,windows_server,business_applications,1,1,0.9983,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-053,windows_server,business_applications,1,1,0.8602,Critical,Medium,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-054,workstation,network_services,1,1,0.9191,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-055,workstation,network_services,0,0,0.0129,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-056,workstation,network_services,1,1,0.5084,High,Low,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-057,firewall,business_applications,0,0,0.1225,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-058,domain_controller,identity_services,1,1,1.0,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-059,siem_server,business_applications,0,0,0.0053,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-060,application_server,finance_operations,0,0,0.0192,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-061,workstation,network_services,0,0,0.3955,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-062,linux_server,business_applications,1,1,0.5389,High,Low,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-063,domain_controller,business_applications,1,1,0.9987,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-064,domain_controller,finance_operations,1,0,0.3744,Medium,Low,No,False Negative,"Review missed risk signals, validate feature coverage, and consider threshold or feature-engineering improvement.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-065,domain_controller,business_applications,0,0,0.0158,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-066,windows_server,identity_services,0,0,0.2561,Medium,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-067,windows_server,network_services,1,1,0.9716,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-068,domain_controller,identity_services,1,1,0.999,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-069,siem_server,business_applications,0,0,0.0429,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-070,windows_server,security_operations,0,0,0.0108,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-071,firewall,identity_services,0,0,0.0292,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-072,workstation,finance_operations,1,1,0.8298,Critical,Medium,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-073,application_server,network_services,0,0,0.0029,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-074,application_server,security_operations,0,0,0.0302,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-075,application_server,business_applications,0,0,0.0037,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-076,firewall,security_operations,0,0,0.1691,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-077,linux_server,business_applications,0,0,0.0267,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-078,firewall,business_applications,0,0,0.2694,Medium,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-079,linux_server,security_operations,0,0,0.0236,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-080,firewall,security_operations,0,0,0.0009,Low,High,Yes,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-081,workstation,network_services,0,0,0.0244,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-082,siem_server,security_operations,1,1,0.8657,Critical,Medium,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-083,workstation,security_operations,0,0,0.0214,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-084,workstation,finance_operations,1,1,0.6545,High,Low,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-085,workstation,network_services,1,1,0.9782,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-086,linux_server,network_services,1,1,0.9455,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-087,workstation,network_services,0,0,0.498,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-088,firewall,network_services,0,0,0.0085,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-089,domain_controller,finance_operations,0,0,0.3535,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-090,siem_server,network_services,0,0,0.1685,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-091,domain_controller,network_services,0,0,0.0043,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-092,firewall,business_applications,1,1,0.9938,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-093,firewall,identity_services,0,0,0.0428,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-094,application_server,business_applications,0,0,0.0014,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-095,siem_server,identity_services,0,0,0.0449,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-096,workstation,network_services,1,1,1.0,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-097,domain_controller,network_services,0,0,0.0086,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-098,firewall,finance_operations,0,0,0.0097,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-099,firewall,finance_operations,0,0,0.0163,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-100,linux_server,business_applications,0,0,0.092,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-101,domain_controller,identity_services,0,0,0.1756,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-102,windows_server,identity_services,0,0,0.019,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-103,domain_controller,identity_services,1,1,0.9984,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-104,linux_server,network_services,1,1,0.91,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-105,firewall,identity_services,1,1,0.9915,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-106,siem_server,business_applications,1,1,0.9987,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-107,workstation,finance_operations,0,0,0.0014,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-108,firewall,security_operations,0,0,0.11,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-109,siem_server,security_operations,0,0,0.0033,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-110,linux_server,finance_operations,1,1,0.6278,High,Low,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-111,linux_server,identity_services,0,0,0.0317,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-112,firewall,security_operations,0,0,0.0129,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-113,firewall,identity_services,1,1,0.9975,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-114,domain_controller,security_operations,1,1,0.8642,Critical,Medium,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-115,domain_controller,identity_services,0,0,0.001,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-116,workstation,network_services,1,1,0.9339,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-117,windows_server,identity_services,0,0,0.0222,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-118,domain_controller,finance_operations,0,0,0.0017,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-119,firewall,security_operations,1,1,0.9912,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-120,application_server,network_services,0,0,0.0996,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-121,firewall,security_operations,0,0,0.0062,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-122,application_server,security_operations,0,0,0.0052,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-123,workstation,security_operations,0,1,0.9441,Critical,High,No,False Positive,"Validate contributing telemetry, document benign explanation if confirmed, and retain as model-improvement evidence.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-124,domain_controller,finance_operations,1,1,0.9944,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-125,domain_controller,identity_services,0,0,0.0021,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-126,application_server,finance_operations,0,0,0.0005,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-127,firewall,business_applications,0,0,0.4303,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-128,workstation,network_services,0,0,0.2241,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-129,application_server,finance_operations,0,0,0.0456,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-130,domain_controller,network_services,0,0,0.0015,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-131,domain_controller,identity_services,0,0,0.4122,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-132,windows_server,identity_services,0,0,0.0003,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-133,domain_controller,security_operations,0,0,0.0096,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-134,application_server,identity_services,1,1,0.9702,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-135,linux_server,network_services,1,1,0.9955,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-136,linux_server,finance_operations,1,1,0.9973,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-137,domain_controller,finance_operations,0,0,0.0037,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-138,domain_controller,security_operations,0,0,0.0054,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-139,domain_controller,business_applications,0,0,0.0311,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-140,workstation,security_operations,0,0,0.0319,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-141,firewall,business_applications,0,0,0.0703,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-142,workstation,security_operations,1,1,0.7085,High,Medium,Yes,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-143,firewall,security_operations,0,0,0.0213,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-144,domain_controller,network_services,1,1,0.9998,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-145,linux_server,business_applications,1,1,0.7156,High,Medium,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-146,domain_controller,security_operations,0,0,0.0003,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-147,workstation,identity_services,0,0,0.0041,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-148,siem_server,network_services,0,0,0.009,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-149,workstation,business_applications,1,1,1.0,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-150,application_server,network_services,0,0,0.0626,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-151,siem_server,network_services,0,0,0.0557,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-152,workstation,business_applications,0,0,0.0032,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-153,workstation,network_services,0,0,0.0002,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-154,domain_controller,business_applications,1,1,1.0,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-155,firewall,finance_operations,0,0,0.0011,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-156,siem_server,network_services,0,0,0.2304,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-157,siem_server,network_services,0,0,0.0715,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-158,workstation,network_services,0,0,0.0018,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-159,workstation,business_applications,0,0,0.0025,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-160,firewall,finance_operations,0,0,0.0023,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-161,linux_server,network_services,1,1,1.0,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-162,domain_controller,network_services,0,0,0.0798,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-163,linux_server,security_operations,0,0,0.0229,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-164,siem_server,business_applications,0,0,0.0877,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-165,linux_server,business_applications,0,0,0.0506,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-166,domain_controller,finance_operations,1,0,0.407,Medium,Low,No,False Negative,"Review missed risk signals, validate feature coverage, and consider threshold or feature-engineering improvement.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-167,firewall,business_applications,0,0,0.0766,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-168,windows_server,network_services,0,0,0.2097,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-169,application_server,security_operations,0,0,0.0035,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-170,windows_server,network_services,0,0,0.0115,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-171,domain_controller,identity_services,0,0,0.0125,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-172,domain_controller,network_services,1,1,0.5652,High,Low,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-173,linux_server,security_operations,0,0,0.0007,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-174,workstation,finance_operations,1,1,0.9996,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-175,linux_server,security_operations,0,0,0.002,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-176,application_server,business_applications,0,0,0.0002,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-177,linux_server,identity_services,0,0,0.2711,Medium,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-178,windows_server,security_operations,1,1,0.9997,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-179,workstation,identity_services,0,0,0.0006,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-180,application_server,network_services,0,0,0.0414,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-181,workstation,security_operations,0,0,0.0679,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-182,workstation,security_operations,0,0,0.1189,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-183,domain_controller,network_services,0,0,0.0036,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-184,linux_server,business_applications,0,0,0.0395,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-185,linux_server,security_operations,0,1,0.534,High,Low,No,False Positive,"Validate contributing telemetry, document benign explanation if confirmed, and retain as model-improvement evidence.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-186,siem_server,security_operations,1,1,0.7634,Critical,Medium,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-187,application_server,business_applications,0,0,0.1165,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-188,windows_server,security_operations,0,0,0.0397,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-189,workstation,security_operations,0,0,0.0005,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-190,workstation,identity_services,0,1,0.9685,Critical,High,No,False Positive,"Validate contributing telemetry, document benign explanation if confirmed, and retain as model-improvement evidence.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-191,linux_server,network_services,1,1,0.9999,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-192,firewall,finance_operations,1,1,0.9999,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-193,firewall,identity_services,0,0,0.0162,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-194,workstation,finance_operations,0,0,0.0084,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-195,domain_controller,network_services,0,0,0.0026,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-196,workstation,security_operations,0,0,0.1425,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-197,domain_controller,security_operations,0,0,0.0016,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-198,domain_controller,finance_operations,0,0,0.0086,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-199,domain_controller,finance_operations,1,1,0.6359,High,Low,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-200,linux_server,finance_operations,0,0,0.0004,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-201,windows_server,finance_operations,1,1,0.9953,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-202,domain_controller,business_applications,0,0,0.39,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-203,firewall,security_operations,0,0,0.1709,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-204,windows_server,business_applications,0,0,0.0046,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-205,domain_controller,finance_operations,1,1,0.8513,Critical,Medium,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-206,application_server,security_operations,0,0,0.0006,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-207,firewall,finance_operations,0,0,0.0077,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-208,workstation,finance_operations,0,0,0.0147,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-209,windows_server,business_applications,0,0,0.0017,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-210,siem_server,finance_operations,1,1,0.999,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-211,application_server,security_operations,0,0,0.0004,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-212,firewall,identity_services,1,1,0.9999,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-213,domain_controller,identity_services,0,0,0.0548,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-214,domain_controller,identity_services,0,0,0.0029,Low,High,Yes,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-215,workstation,business_applications,0,0,0.0269,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-216,siem_server,identity_services,1,1,0.97,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-217,windows_server,finance_operations,1,1,0.9985,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-218,siem_server,network_services,0,0,0.0028,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-219,firewall,security_operations,0,0,0.0099,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-220,domain_controller,security_operations,0,1,0.5145,High,Low,No,False Positive,"Validate contributing telemetry, document benign explanation if confirmed, and retain as model-improvement evidence.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-221,windows_server,network_services,0,0,0.0467,Low,High,Yes,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-222,windows_server,identity_services,1,1,0.9584,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-223,firewall,network_services,1,1,0.9992,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-224,workstation,finance_operations,1,0,0.4096,Medium,Low,No,False Negative,"Review missed risk signals, validate feature coverage, and consider threshold or feature-engineering improvement.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-225,firewall,business_applications,0,1,0.7606,Critical,Medium,No,False Positive,"Validate contributing telemetry, document benign explanation if confirmed, and retain as model-improvement evidence.",2026-07-06T09:16:38.211550+00:00
+LHT-Asset-226,application_server,identity_services,0,0,0.006,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-227,firewall,identity_services,0,0,0.0071,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-228,application_server,identity_services,0,0,0.3493,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-229,firewall,identity_services,0,0,0.0001,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-230,windows_server,identity_services,0,0,0.0143,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-231,linux_server,identity_services,0,0,0.0944,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-232,firewall,security_operations,1,1,0.9952,Critical,High,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-233,linux_server,identity_services,0,0,0.3231,Medium,Low,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-234,application_server,identity_services,0,0,0.0001,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-235,firewall,business_applications,0,0,0.017,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-236,siem_server,network_services,1,1,0.8275,Critical,Medium,No,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-237,workstation,finance_operations,0,0,0.1756,Low,Medium,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-238,linux_server,security_operations,0,0,0.0021,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-239,linux_server,identity_services,0,0,0.0023,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-240,linux_server,identity_services,1,1,0.9936,Critical,High,Yes,True Positive,Validate evidence immediately and assign analyst review.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-241,firewall,finance_operations,0,0,0.0005,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-242,firewall,identity_services,0,0,0.0635,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-243,workstation,finance_operations,0,0,0.01,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-244,firewall,business_applications,1,1,0.6951,High,Low,No,True Positive,Validate evidence during priority risk triage.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-245,linux_server,network_services,0,0,0.0893,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-246,firewall,finance_operations,0,0,0.0073,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-247,firewall,business_applications,0,0,0.0098,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-248,linux_server,security_operations,0,0,0.0767,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-249,siem_server,identity_services,0,0,0.0033,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00
+LHT-Asset-250,siem_server,finance_operations,0,0,0.1007,Low,High,No,True Negative,Continue monitoring and retain forecast evidence.,2026-07-06T09:16:38.211550+00:00

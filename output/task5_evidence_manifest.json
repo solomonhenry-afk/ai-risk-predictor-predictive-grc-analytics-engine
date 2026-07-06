@@ -1,0 +1,93 @@
+{
+  "project": "AI Risk Predictor \u2014 Predictive GRC Analytics Engine",
+  "generated_at": "2026-07-06T09:17:12.442489+00:00",
+  "purpose": "Evidence manifest for validated telemetry, model outputs, threat correlations, explainability, and executive governance reports.",
+  "artifact_count": 17,
+  "artifacts": [
+    {
+      "path": "output/asset_level_explainability.csv",
+      "size_bytes": 235928,
+      "sha256": "5eb7a8f650471f3279fc03a3b4ed8edeabbdfc0a2e9c4dfdb02126bf2652180f"
+    },
+    {
+      "path": "output/baseline_feature_importance.json",
+      "size_bytes": 2270,
+      "sha256": "c05863d8ac1824ced7dd0dda4acc8c6870331a3a0772123f03eca8a86184745e"
+    },
+    {
+      "path": "output/baseline_model_metrics.json",
+      "size_bytes": 1507,
+      "sha256": "61bcace7992c1a8b2432b351810a5ba71ef5790fef6b1ab87b22821da77e8796"
+    },
+    {
+      "path": "output/baseline_risk_forecasts.csv",
+      "size_bytes": 32902,
+      "sha256": "0de69d69a79e8bb482cbcad7e19dc264f0290f494651ea866a717dd278b4fb73"
+    },
+    {
+      "path": "output/executive_operational_metrics.json",
+      "size_bytes": 623,
+      "sha256": "9b082841aeb64e9467100f9bf77e9e65415ba9d8d070199cda3e440fe9db0dd5"
+    },
+    {
+      "path": "output/false_negative_review_queue.csv",
+      "size_bytes": 908,
+      "sha256": "06be83d4b01ce0c1bccd63eaac62c1325937bc53b839ec5f7e8d544e03596dae"
+    },
+    {
+      "path": "output/false_positive_review_queue.csv",
+      "size_bytes": 2124,
+      "sha256": "0c38a68c9cc75ce4b6fc860648a3ef4220e4e4083a43bc0e35556d4b6bae4a1d"
+    },
+    {
+      "path": "output/phase_b_data_quality_report.json",
+      "size_bytes": 725,
+      "sha256": "abb797d48415763c56a0e4c0ff5b8b59cab8f4aa0a7310420b2e0ad5059c80b7"
+    },
+    {
+      "path": "output/prediction_validation_results.csv",
+      "size_bytes": 43488,
+      "sha256": "9c9db07cc114922235dae2092076c6c1d12054561c286535334a65ffd72bcc77"
+    },
+    {
+      "path": "output/threat_priority_correlations.csv",
+      "size_bytes": 150945,
+      "sha256": "dec540b3e451a830a03400155cc5a8597a7af7278cb56be91ba39103f481406c"
+    },
+    {
+      "path": "output/threshold_validation_summary.json",
+      "size_bytes": 580,
+      "sha256": "9839a7fa445e9996a0e9bf4d671d978f78237793266cea54c54958606731a835"
+    },
+    {
+      "path": "reports/EXECUTIVE-AI-RISK-PREDICTOR-OPERATIONS-REPORT.md",
+      "size_bytes": 1617,
+      "sha256": "f28304acc52527c08cd7b1faff3af8f3bb97f8fdf9e778915586b2c9e1989662"
+    },
+    {
+      "path": "reports/PHASE-C-BASELINE-RISK-FORECASTING-SUMMARY.md",
+      "size_bytes": 2031,
+      "sha256": "6947be8ecfb24536c1626fca8ea6975486633d2f3e296e32db0a6e2057913e28"
+    },
+    {
+      "path": "reports/PHASE-D-THREAT-ANALYTICS-AND-ATTACK-TREND-REPORT.md",
+      "size_bytes": 4278,
+      "sha256": "3c242266e218ab2f8e2c836ad824dba3e17a7c9f595250924d99fa2c7f060b0b"
+    },
+    {
+      "path": "reports/PHASE-E-MODEL-VALIDATION-EXPLAINABILITY-AND-GOVERNANCE-REPORT.md",
+      "size_bytes": 3463,
+      "sha256": "bf3c5342351caa49fb4336b1e29087644dffbbb4a5246ee469288836d69cba46"
+    },
+    {
+      "path": "models/baseline_anomaly_detection_model.joblib",
+      "size_bytes": 3866096,
+      "sha256": "75379f89fc95b381a4cf2fe05380a0b1d90650043cdbd2c6c5b4dd808ab840f4"
+    },
+    {
+      "path": "models/baseline_risk_forecast_model.joblib",
+      "size_bytes": 2529,
+      "sha256": "7349a4c123a9cafb2ba5a6d71fde9533b089a3422f26398b3af387906135f091"
+    }
+  ]
+}
