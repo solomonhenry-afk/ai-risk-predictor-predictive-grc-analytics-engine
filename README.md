@@ -1,4 +1,4 @@
-# Executive Summary — AI Risk Predictor (Predictive GRC Analytics Engine)
+# AI Risk Predictor - Predictive GRC Analytics Engine
 
 Lighthouse Technology required a way to move from retrospective compliance reporting toward continuous, telemetry-driven governance intelligence.
 
@@ -36,13 +36,6 @@ The system is advisory. Human analysts validate High and Critical findings befor
 The project demonstrates a GRC engineering model in which evidence, risk forecasting, control effectiveness, threat context, and executive reporting are generated from operational telemetry rather than assembled manually after the fact.
 ```
 
-Create the final Task 5 README:
-
-```bash
-nano README.md
-```
-
-````markdown
 # AI Risk Predictor — Predictive GRC Analytics Engine
 
 > **Transforming validated enterprise telemetry into explainable cyber-risk forecasts, governance intelligence, and executive decision support.**
@@ -145,7 +138,7 @@ The Flask command center provides an executive-facing view of:
 * prioritized high-risk asset queue
 * governance boundaries for model use
 
-### Run Locally
+### To Run Locally
 
 ```bash
 python3 -m venv .venv
